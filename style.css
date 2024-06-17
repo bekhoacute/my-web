@@ -1,0 +1,60 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #ffcccc, #ffe6e6);
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #ff6699;
+}
+
+p {
+    color: #333;
+    font-size: 18px;
+}
+
+button {
+    background: #ff6699;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+    margin: 5px;
+}
+
+button:hover {
+    background: #ff3366;
+}
+
+#disagree-btn {
+    position: relative;
+    transition: top 0.5s, left 0.5s;
+}
+
+#surprise {
+    margin-top: 20px;
+}
+
+#surprise img {
+    width: 150px;
+    height: auto;
+}
+
+.hidden {
+    display: none;
+}
